@@ -1,0 +1,15 @@
+
+{
+    // Required
+    "manifest_version": 2,
+    "name": "My Extension",
+    "version": "1.0",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "storage",
+        "gcm"
+    ]
+}
